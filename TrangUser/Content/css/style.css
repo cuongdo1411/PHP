@@ -1,0 +1,128 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.product-item {
+    border: 1px solid rgb(212, 212, 212);
+    width: 300px;
+}
+
+.product-img {
+    position: relative;
+    overflow: hidden;
+}
+
+.rate1 {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.rate1 input[type="radio"] {
+    display: none;
+}
+
+.rate1 label {
+    color: #ddd;
+    font-size: 1.5em;
+    margin: 0 0.2em;
+    cursor: pointer;
+}
+
+.rate1 input[type="radio"]:checked~label {
+    color: #FFD700;
+}
+
+.btns {
+    position: absolute;
+    left: 0;
+    bottom: -100%;
+    font-size: 15px;
+    font-weight: 300;
+    transition: all 0.3s ease-in-out;
+}
+
+.btns button {
+    border: none;
+    background-color: rgb(39, 39, 39);
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.btns button:hover {
+    color: #fcb941;
+}
+
+.product-img:hover .btns {
+    bottom: 0
+}
+
+.heart-icon {
+    position: absolute;
+    bottom: 13px;
+    left: 270px;
+    font-size: 18px;
+}
+
+.product-type {
+    font-size: 13px;
+    opacity: 0.8;
+}
+
+.product-name {
+    transition: all 0.3s ease-in-out;
+}
+
+.product-name:hover {
+    color: #fcb941 !important;
+}
+
+.product-price {
+    color: black;
+    text-decoration: line-through;
+}
+
+.product-price1 {
+    color: black;
+    /* text-decoration: line-through; */
+}
+
+.product-sale {
+    color: #fcb941;
+}
+
+.rating {
+    font-size: 13px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fcb941;
+}
+
+.lienket {
+    color: white;
+}
+
+.rate1 {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.rate1 input[type="radio"] {
+    display: none;
+}
+
+.rate1 label {
+    color: #ddd;
+    font-size: 1.5em;
+    margin: 0 0.2em;
+    cursor: pointer;
+}
+
+.rate1 input[type="radio"]:checked~label {
+    color: #FFD700;
+}
